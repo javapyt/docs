@@ -10,3 +10,6 @@ Pip3
 
 # Mkdocs Start:
 `mkdocs serve`
+
+# Build
+Specified in Yaml file 
