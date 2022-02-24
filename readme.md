@@ -8,7 +8,7 @@ Pip3
 3. `mkdocs new bag`
 4. `cd bag`
 
-# Mkdocs Start:
+# Mkdocs Start DEV Server:
 `mkdocs serve`
 
 # Build
