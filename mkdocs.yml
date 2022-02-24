@@ -1,0 +1,17 @@
+site_name: Documentation
+# Enable Mermaid Diagrams
+plugins:
+    - search
+    - mermaid2
+# Material Theme for better Search bar and clear design
+theme:
+  name: material
+  palette:
+  #Palette Color Scheme custom named "bag", found in stylesheets/extra.css, uses binding BAG Corporate Design Colors 
+    scheme: bag
+extra_css:
+  - stylesheets/extra.css
+markdown_extensions:
+    - toc:
+        permalink: 
+    - attr_list
