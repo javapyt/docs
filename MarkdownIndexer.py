@@ -2,8 +2,8 @@
 import os
 pathname = os.getcwd()
 for subdir, dirs, files in os.walk(pathname):
+    print(subdir)
     for file in files:
-      dirname = os.path.dirname(subdir + '/' + file)
-      basename = os.path.basename(dirname)
-      if basename + '.md' == file:
-        os.rename(subdir + '/' + file, subdir + '/' + 'index.md')
+      for dir in dirs: 
+        if(dir + '.md' == file):
+          os.rename(subdir + '/' + file, subdir + '/' + dir + '/' + 'index.md')
